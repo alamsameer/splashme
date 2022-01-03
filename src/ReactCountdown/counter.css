@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    width: 100vw;
+    height: 100vh; color: white;
+     background: url('./CounterwinterImage.jpg') no-repeat center center;
+     background-size: cover;
+}
+#root{
+    /* border: 2px solid green; */
+}
+.container{
+    border: 2px solid rgb(45, 0, 128);
+    min-width: 20rem;
+    box-shadow: .2rem .2rem .2rem white,-.2rem -.2rem .2rem white;
+    border-radius: .4rem;
+}
+h1{
+    padding: 1rem;
+    text-align: center;
+    font-size: 4rem;
+    color: rgba(63, 106, 170, 0.699);
+}
+.btns{
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+button{
+    width: 50%;
+    margin: .4rem;
+    padding: .2rem;
+    background: rgba(63, 106, 170, 0.699);
+  font-size: 1.7rem;
+  color: white;
+  border-radius: .4rem;
+  border: 1px solid rgb(45, 0, 128);
+}
