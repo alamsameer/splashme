@@ -112,3 +112,5 @@ const bankOne = [
       url: 'https://s3.amazonaws.com/freecodecamp/drums/Brk_Snr.mp3'
     }
   ];
+
+  export {bankOne ,bankTwo}

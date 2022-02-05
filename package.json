@@ -1,12 +1,11 @@
-
 {
   "name": "learn-react",
   "version": "1.0.0",
   "description": "The Adopt Me pet adoption app",
   "main": "src/index.js",
   "scripts": {
-    "dev": "parcel src/MovieDB/index.html",
-    "build": "parcel  src/MovieDB/index.html",
+    "dev": "parcel src/fccDrum/index.html",
+    "build": "parcel src/fccDrum/index.html",
     "format": "prettier --write \"src/**/*.{js,jsx}\"",
     "lint": "eslint \"src/**/*.{js,jsx}\" --quiet"
   },
@@ -28,9 +27,14 @@
     "prettier": "2.2.1"
   },
   "dependencies": {
-    "react": "17.0.1",
+    "react": "^17.0.2",
     "react-dom": "17.0.1",
-    "react-router-dom": "^5.2.0"
+    "react-icons": "^4.3.1",
+    "react-markdown": "^7.1.2",
+    "react-router-dom": "^5.2.0",
+    "react-syntax-highlighter": "^15.4.5",
+    "reactt": "^1.0.1",
+    "values.js": "^2.0.0"
   },
   "browserslist": [
     "last 2 Chrome versions"
