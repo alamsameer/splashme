@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#calculator{
+    width: 20rem;
+}
+.calc-display{
+    height: 19px;
+border: 2px solid brown;
+}
+.calc-current{
+    
+}
+ .calc-btns{
+  display: grid;
+  grid-template-columns: repeat(4,5rem);
+  grid-template-rows: repeat(5,3rem);
+}
+#zero {
+    grid-column: span 2;
+}
+#equals{
+  grid-row: span 2;
+}

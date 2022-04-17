@@ -4,8 +4,8 @@
   "description": "The Adopt Me pet adoption app",
   "main": "src/index.js",
   "scripts": {
-    "dev": "parcel src/fccDrum/index.html",
-    "build": "parcel src/fccDrum/index.html",
+    "dev": "parcel src/reactPomo/index.html",
+    "build": "parcel src/reactPomo/index.html",
     "format": "prettier --write \"src/**/*.{js,jsx}\"",
     "lint": "eslint \"src/**/*.{js,jsx}\" --quiet"
   },
