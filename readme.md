@@ -25,3 +25,6 @@ we can deploy on [vercel]() and [netlify]() and there is many other option but f
 - import the project you want to deploy 
 - And wait for some time as these platform will install packages and deploy automatically 
 - Now everything done you are good to go  tada!  
+
+## see the deployment 
+[mySplash](https://sparkling-sfogliatella-f35241.netlify.app/)
